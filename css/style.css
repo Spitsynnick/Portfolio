@@ -379,12 +379,12 @@ section {
 .footer {   
     background-color: var(--second_background-color); 
     text-align: center;     
-    padding: 20px 15%;     
+    padding: 25px 15%;     
 }
 
 .footer a {
     display: block;
-    font-size: 40px;
+    font-size: var(--medium_font);
     color: var(--text-color); 
     transition: all .4s;   
 }
