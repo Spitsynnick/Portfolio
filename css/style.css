@@ -294,6 +294,10 @@ section {
     margin-bottom: 5px;    
 }
 
+.project p:nth-of-type(2) {
+    font-size: var(--small_font);    
+}
+
 .project a:nth-of-type(2) {
     position: relative;
     color: var(--second_text-color);
