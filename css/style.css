@@ -283,9 +283,9 @@ section {
     margin-bottom: 3rem;    
 }
 
-.project:last-child {
+.project:nth-last-child(-n + 2) {
     margin-bottom: 0;
-}
+} 
 
 .project a {
     cursor: pointer;
