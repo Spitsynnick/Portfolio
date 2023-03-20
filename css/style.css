@@ -154,7 +154,7 @@ section {
 
 .about_text h3 {
     font-size: var(--heading_font);
-    margin-bottom: 0.75rem;    
+    margin-bottom: 1rem;    
     display: inline-block;
     border-bottom: 0.1rem solid var(--text-color);
 }
@@ -164,7 +164,7 @@ section {
     line-height: 1.5rem;
     max-width: 37rem;
     font-size: var(--medium_font);
-    margin-bottom: 1.7rem;    
+    margin-bottom: 2rem;    
 }
 
 .about_text h4 {    
@@ -176,11 +176,36 @@ section {
 }
 
 .about_text h4 + p:nth-of-type(4) {
-    margin-bottom: 1.7rem;
+    margin-bottom: 2rem;
 }
 
-.about_text h4 + p:last-of-type {
-    margin-bottom: 0;
+.cv_block {
+    display: flex;    
+    align-items: center;
+}
+
+.cv_block p {
+    margin: 0 1.5rem 0 0;
+}
+
+.cv_button {
+    background-color: var(--second_background-color);
+    padding: 1rem;
+    border-radius: 0.75rem;    
+    text-align: center;    
+    transition: all .4s;
+    box-shadow: var(--box-shadow);   
+}
+
+.cv_button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: var(--box-shadow_hovered); 
+}
+
+.cv_link {
+    color: var(--text-color);   
+    text-decoration: none;   
 }
 
 .skills_title {
